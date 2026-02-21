@@ -31,30 +31,6 @@ A study project focused on efficient data structure manipulation and algorithm a
 
 ## 📊 Technical Analysis
 
-### Logic Flow
-The following diagram illustrates the program's main execution loop:
-
-```mermaid
-graph TD
-    Start([Start]) --> MainLoop{Menu Loop}
-    MainLoop -->|1| Sum[Get Sum]
-    MainLoop -->|2| Init[Initialize Array]
-    MainLoop -->|3| Search[Find Position & Insert]
-    MainLoop -->|4| ShowAsc[Print Ascending]
-    MainLoop -->|5| ShowDesc[Print Descending]
-    MainLoop -->|6| Debug[Toggle Debug/Tests]
-    MainLoop -->|7| Exit([Exit])
-    
-    Sum --> MainLoop
-    Init --> MainLoop
-    Search --> MainLoop
-    ShowAsc --> MainLoop
-    ShowDesc --> MainLoop
-    Debug --> MainLoop
-```
-
-### Algorithm Complexity (Big O)
-
 | Operation | Complexity | Notes |
 | :--- | :--- | :--- |
 | **Get Sum** | $O(n)$ | Iterative summation of all elements. |
