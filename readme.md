@@ -31,8 +31,6 @@ A study project focused on efficient data structure manipulation and algorithm a
 | **Get Sum** | $O(n)$ | Iterative summation of all elements. |
 | **Search (linear)** | $O(n)$ | Used when array size < `SEARCH_THRESHOLD` (100). |
 | **Search (binary)** | $O(\log n)$ | Used when array size ≥ `SEARCH_THRESHOLD` (100). |
-| **Insertion** | $O(n)$ | Shifting elements in a Python list. |
-| **Reversing** | $O(n)$ | Creating a reversed slice of the list. |
 
 ## 🧪 Development History
 This project evolved through four phases of study:
