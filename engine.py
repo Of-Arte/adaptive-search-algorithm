@@ -97,7 +97,6 @@ def get_key():
     trace("Loop complete")
     return key
 
-
 def find_pos(data, key): 
     """
     - Check if the key is in the array. If not, insert it at the correct position.
@@ -252,7 +251,6 @@ def main():
                 elif func == add_number:
                     if not data and data is not None: 
                         # Allow empty list to be passed if initialized
-                        # But build_array returns a list. 
                         # Initial state data = []
                         pass
                     # If data is empty, find_pos handles it, inserts key at index 0.
@@ -272,4 +270,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
