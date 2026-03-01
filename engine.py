@@ -1,7 +1,6 @@
 import sys, time
 import unittest
 # Import the separate test file to run it from debug()
-# Removed circular import of test_engine
 
 TRACE = False
 SEARCH_THRESHOLD = 100
