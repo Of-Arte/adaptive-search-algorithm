@@ -140,7 +140,6 @@ def search_data(data, key):
         trace(f"Using binary search (size {len(data)})")
         return binary_search(data, key)
         
-
 def linear_search(data, key): 
     """
     - Search for the position where the key exists or should be inserted.
